@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+.home{
+    width: 62%;
+    margin: 2% auto; 
+    padding: 5%; 
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3%;
+}
+
+header{
+    text-align: center;
+}
+
+header> img{
+    width: 25%;
+}
+
+header> h2{
+    font-size: 180%;
+    color: rgb(16, 197, 16);  
+}
+
+div:not(.comandi){
+    font-family: 'Poppins', sans-serif;
+}
+.comandi{
+    background-color: rgb(16, 197, 16);
+    text-align: center;
+    padding: 10px;
+}
+
+.slot{
+    color: white;
+    padding: 15px 0px;
+}
+
+.oggetto>span{
+    font-size: 145%;
+}
+
+.info>span:before{	
+    content: "\21A6";
+}
+
+.batteria.half {
+    width: 35%;
+    padding: 15px;
+    background-color:rgb(250, 188, 53);
+    border-radius: 5px;
+}
+
+.batteria.max {
+    width: 60%;
+    padding: 15px;
+    background-color: rgb(16, 197, 16);
+    border-radius: 5px;
+}
+
+.batteria.min {
+    width: 15%;
+    padding: 15px;
+    background-color:rgb(173, 44, 44);
+    border-radius: 5px;
+}
